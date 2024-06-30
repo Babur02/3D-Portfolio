@@ -13,7 +13,7 @@ function Footer() {
         <SocialIcon url="https://discord.com/users/thequreshi.exe" target="_blank" className="hover:scale-110 transition-transform" />
         <SocialIcon url="https://x.com/Baburqureshi02?t=0fGT1bUGkMCYea58emwOkw&s=09" target="_blank" className="hover:scale-110 transition-transform" />
         <SocialIcon url="https://t.me/Thequreshi" target="_blank" className="hover:scale-110 transition-transform" />
-        <SocialIcon url="https://api.whatsapp.com/send?phone=8871545850" target="_blank" className="hover:scale-110 transition-transform" />
+        <SocialIcon url="https://api.whatsapp.com/send?phone=+918871545850" target="_blank" className="hover:scale-110 transition-transform" />
       </div>
     </footer>
   );
