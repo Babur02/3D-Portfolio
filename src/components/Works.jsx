@@ -1,13 +1,12 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";  // Updated import
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, share } from "../assets";  // Ensure share is also imported
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { share } from "../assets";
 
 const ProjectCard = ({
   index,
@@ -21,11 +20,10 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+        tiltMaxAngleX={45}
+        tiltMaxAngleY={45}
+        scale={1.1}
+        transitionSpeed={450}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -34,10 +32,6 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-          {/* <video width="600" controls className='w-full h-full object-cover rounded-2xl'>
-            <source src={image} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */}
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -70,7 +64,6 @@ const ProjectCard = ({
               className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
-              
             </p>
           ))}
         </div>
@@ -92,7 +85,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
+          Following projects showcase my skills and experience through
           real-world examples of my work. Each project is briefly described with
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
