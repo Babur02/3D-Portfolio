@@ -218,7 +218,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Algobox",
+    name: "Algobox📦",
     description:
       "200+ downloads since its launch in February 2024. An NPM package published on npm, aimed at simplifying array sorting tasks. Eliminates the need for complex sorting logic or compare functions by allowing effortless array sorting.",
     tags: [
@@ -232,7 +232,7 @@ const projects = [
     live_link: "https://www.npmjs.com/package/algobox",
   },
   {
-    name: "iTube",
+    name: "iTube🎥",
     description:
       "Offers a seamless video watching experience where users can enjoy an extensive library of videos.Seamlessly integrates React's component-based architecture for efficient and scalable development.",
     tags: [
@@ -250,7 +250,7 @@ const projects = [
     live_link: "https://new-itube.netlify.app/",
   },
   {
-    name: "E-Raktdaan",
+    name: "E-Raktdaan🩸",
     description:
       "E-Raktdaan, an Android-based blood donation app that enables donors and recipients to connect and arrange blood donations.",
     tags: [
@@ -272,7 +272,7 @@ const projects = [
     live_link: "https://drive.google.com/file/d/124XrBnqColazioznMEMuQDpzL0mTtqu-/view",
   },
   {
-    name: "Insta-Style",
+    name: "Insta-Style📱",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
