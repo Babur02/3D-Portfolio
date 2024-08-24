@@ -23,6 +23,7 @@ import linux from "./tech/linux.jpg";
 import aws from "./tech/aws.png";
 import java from "./tech/java.png";
 import threejs from "./tech/threejs.svg";
+import springboot from "./tech/springboot.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import stone from "./company/stone.png";
 import upgradx from "./company/upgradx.jpg";
+import xcelore from "./company/xcelore.jpg";
 
 import carrent from "./carrent.png";
 import npm from './npm.png'
@@ -62,11 +64,13 @@ export {
   linux,
   aws,
   java,
+  springboot,
   tailwind,
   typescript,
   threejs,
   upgradx,
   stone,
+  xcelore,
   meta,
   shopify,
   starbucks,

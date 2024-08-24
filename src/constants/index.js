@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  springboot,
   reactjs,
   redux,
   tailwind,
@@ -33,6 +34,7 @@ import {
   tripguide,
   threejs,
   share,
+  xcelore,
 } from "../assets";
 
 export const navLinks = [
@@ -71,6 +73,14 @@ const services = [
 
 const technologies = [
   {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "springboot",
+    icon: springboot,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -105,10 +115,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "java",
-    icon: java,
   },
   {
     name: "aws",
@@ -149,7 +155,7 @@ const experiences = [
     title: "Freelancer",
     company_name: "Stone Arts Kenya",
     icon: stone,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "March 2024",
     points: [
       // "Developing and maintaining web applications using React.js and other related technologies.",
@@ -161,19 +167,16 @@ const experiences = [
       "Managed state and asynchronous data fetching using React hooks and Next.js features, enhancing user experience and app performance.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Railworld",
-  //   icon: railworld,
-  //   iconBg: "#383E56",
-  //   date: "Apr 2024 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Java Developer",
+    company_name: "Xcelore",
+    icon: xcelore,
+    iconBg: "#383E56",
+    date: "Aug 2024 - Present",
+    points: [
+      "Developing and maintaining Backend using Java and Springboot.",
+    ],
+  },
   // {
   //   title: "Full stack Developer",
   //   company_name: "Meta",
